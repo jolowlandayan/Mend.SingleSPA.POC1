@@ -3,6 +3,8 @@
   "extends": [
     "config:base"
   ],
+  "baseBranches": ["dev"],
+  "branchName": "{{{mendio}}}{{{poc}}}{{{embark}}}",
   "commitBody": "Updates to packages. Please merge me!",
   "labels": ["dependencies"],
   "packageRules": [
